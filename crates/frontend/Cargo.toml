@@ -1,5 +1,5 @@
 [package]
-name = "foobar-ui"
+name = "frontend"
 version = "0.0.0"
 edition = "2021"
 
