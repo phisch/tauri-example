@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+name = "web_server"
+version = "0.1.0"
+
+[dependencies]
+client = { version = "0.1.0", path = "../client" }
+
+axum = { version = "0.6.0-rc.2", features = ["headers"] }
+log = "0.4.17"
+mime_guess = "2.0.4"
